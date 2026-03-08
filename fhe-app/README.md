@@ -4,10 +4,13 @@ A Streamlit app combining **Fully Homomorphic Encryption**, **Federated Learning
 and **Gemini AI** for privacy-preserving breast cancer classification.
 
 ## Setup
+```bash
+pip install uv
+```
 
 ```bash
-pip install -r requirements.txt
-streamlit run app.py
+uv sync
+uv run streamlit run app.py
 ```
 
 ## Features
