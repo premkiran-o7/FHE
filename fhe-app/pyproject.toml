@@ -3,10 +3,10 @@ name = "fhe-app"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = "==3.13"
 dependencies = [
-    "google-generativeai>=0.7.0",
     "imbalanced-learn>=0.11.0",
+    "langchain-groq>=1.1.2",
     "matplotlib>=3.7.0",
     "numpy>=1.24.0",
     "pandas>=2.0.0",
